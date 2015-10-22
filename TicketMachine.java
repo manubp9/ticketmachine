@@ -46,7 +46,13 @@ public class TicketMachine
     {
         return balance;
     }
-
+    /**
+     * Return the Total
+     */
+    public int getTotal()
+    {
+        return total;
+    }
     /**
      * Receive an amount of money from a customer.
      */
