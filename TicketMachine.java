@@ -105,4 +105,16 @@ public class TicketMachine
        System.out.println("Please , insert the correct amount of money");
 
     }
+     /**
+     *imprime por pantalla el precio del billete 
+     * 
+     * 
+     */
+    public void showPrice()
+    {
+      System.out.println( "the price of a ticket is " + price + " cents");
+
+    }
+    
+    
 }
