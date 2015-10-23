@@ -83,7 +83,7 @@ public class TicketMachine
     }
     
     /**
-     * enter a new price
+     *  fija el precio del billete a un precio dado
      * 
      * 
      */
