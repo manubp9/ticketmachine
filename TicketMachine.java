@@ -51,7 +51,10 @@ public class TicketMachine
     {
         return price;
     }
-
+    /**
+     * 
+     */
+    
     /**
      * Return the amount of money already inserted for the
      * next ticket.
@@ -127,6 +130,16 @@ public class TicketMachine
       System.out.println( "the price of a ticket is " + price + " cents");
 
     }
+    /**
+     * 
+     */
+    public void empty()
+    {
+        total = 0;
+        
+   
+  
     
     
+}
 }
